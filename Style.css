@@ -10,7 +10,6 @@ body {
     padding: 0;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,6 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
-/* Over sectie */
 .over-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,7 +94,7 @@ main img {
     margin: 10px;
 }
 
-/* Rooster */
+
 .rooster-container {
     display: grid;
     align-items: center;
@@ -112,7 +110,7 @@ main img {
     margin-left: 5%;
 }
 
-/* Footer */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -120,7 +118,6 @@ footer {
     padding: 10px 0;
 }
 
-/* --- RESPONSIVE --- */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
